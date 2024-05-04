@@ -26,7 +26,7 @@
 
 // let x: boolean = isLegal(20);
 
-function hof(fn: Function) {
+function hof(fn: () => void) {
     setTimeout(fn, 1000);
 }
 
